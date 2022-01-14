@@ -305,7 +305,7 @@ deps = {
    Var('dart_git') + '/stack_trace.git' + '@' + Var('dart_stack_trace_tag'),
 
   'src/third_party/dart/third_party/pkg/stagehand':
-   Var('dart_git') + '/stagehand.git@e64ac90cac508981011299c4ceb819149e71f1bd',
+   'https://github.com/dart-archive/stagehand.git@e64ac90cac508981011299c4ceb819149e71f1bd',
 
   'src/third_party/dart/third_party/pkg/stream_channel':
    Var('dart_git') + '/stream_channel.git' + '@' + Var('dart_stream_channel_tag'),
